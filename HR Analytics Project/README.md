@@ -25,27 +25,30 @@ So, how does the HR department make these decisions in volatile market condition
 - Power Query
 - Dax Query
 
-# Cleaning and Analyzing using Power Query:
-- Open Excel and connect to your employee data
-- Use Power Query to clean and transform the data
-- Create a copy template for one sheet in Power Query transformations and apply the same transformations to all sheets
-- Apply all necessary cleaning steps, such as removing duplicates, renaming columns, and changing data types
-- Create a parameter to select the desired data based on a specific condition
-- Encapsulate all steps into a function to be reused for future sheets and data
-- Load and Apply the cleaned data into Power BI
+# Cleaning and Analyzing Using Power Query
+
+1. **Connect to Employee Data in Excel**
+    - Open Excel and establish a connection with your employee data.
+
+2. **Power Query Transformations**
+    - Utilize Power Query to systematically clean and transform the data for accuracy and consistency.
+
+3. **Create Template in Power Query**
+    - Develop a template within Power Query for one sheet, ensuring the application of identical transformations to all sheets for uniformity.
+
+4. **Apply Necessary Cleaning Steps**
+    - Implement essential cleaning procedures, including removing duplicates, renaming columns, and adjusting data types.
+
+5. **Introduce Parameter for Data Selection**
+    - Introduce a parameter that facilitates the selection of specific data based on defined conditions.
+
+6. **Encapsulate Steps into a Reusable Function**
+    - Package all transformation steps into a reusable function, promoting efficiency for future sheets and diverse datasets.
+
+7. **Load and Apply Cleaned Data into Power BI**
+    - Seamlessly load and apply the refined data into Power BI, facilitating a streamlined and visually compelling analysis.
 
 
-# Exploring and Manipulate Some Data Using DAX Query:
-- With DAX Query, we can effectively manipulate and analyze the data to provide insights for visulization and identify areas for improvement for HR.
-- Create Measures and columns Using DAX functions such as count, sum function for exploring some clean data for improve dashboard KPI in PowerBI.
-
-# Power BI Dashboard Visualization:
-- Design the dashboard layout
-- Create a measure table to aggregate and display the data using Dax functions
-- Use Visulizations for charts and filters for filter dashboard
-- Now, Add Title HR Dashboard
-- Add Month column as Slicer and add some informative KPI.
-- Add Bar chart, Pie chart, Column chart, Cards, Matrix chart, Donut chart etc
 
 
 # Conclusion:
